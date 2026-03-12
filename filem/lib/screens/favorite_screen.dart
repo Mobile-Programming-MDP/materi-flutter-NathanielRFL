@@ -1,9 +1,8 @@
 import 'dart:convert';
 
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:pilem/models/movie.dart';
-import 'package:pilem/screens/detail_screen.dart';
+import 'package:filem/models/movie.dart';
+import 'package:filem/screens/detail_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class FavoriteScreen extends StatefulWidget {
